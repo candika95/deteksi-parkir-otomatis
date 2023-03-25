@@ -80,7 +80,6 @@ void loop() {
   digitalWrite(led, LOW);               //lampu mati
     while(true){
       read();                           //dibaca lagi
-      message(sisaParkir);
     if(!realCarJarak){ //jika sudah gaada mobil dan suara lagi maka akan keluar infinite loop
     parkirTerisi--;
       break;
